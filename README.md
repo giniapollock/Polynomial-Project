@@ -1,8 +1,9 @@
 # Polynomial-Project
-CIS 2353 Data Structures Project 2
 
-Taken directly from the project requirements: 
+Demonstrates an understanding of the Linked List data type, nodes, and their functionality. It is essentially a component of a Mathematics solving software. 
 
-For this assignment, you will create a class named Polynomial, and a class named Node. Each Polynomial object will be responsible for maintaining a chain of linked nodes. You can assume the polynomial is in standard, decreasing term form. For example, a polynomial will always be read from file in the correct order, and constructed as for example, 4x2 + 2x + 3 and not something like 2x + 3 + 4x2.
+# Node class
+The Node class represents an individual term of a polynomial. Contains data representing the Polynomial, and a link to the next Node object in the chain. The chain is singly-linked, with each node pointing to the next node.
 
-Assume all polynomials represent a function of x, and no other mathematical variables. In other words, x will be the only character encountered representing a mathematical variable.
+# Functionality
+Program assumes all powers and coefficients are integers, all polynomials represent a function of x, and that all polynomials are input in decending order (ex: "4x2 + 2x + 3")
